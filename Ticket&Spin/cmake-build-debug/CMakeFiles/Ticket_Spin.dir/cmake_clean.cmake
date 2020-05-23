@@ -2,9 +2,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Ticket_Spin.dir/main.cpp.obj"
   "CMakeFiles/Ticket_Spin.dir/spin/spinlock.cpp.obj"
   "CMakeFiles/Ticket_Spin.dir/ticket/ticketlock.cpp.obj"
-  "Ticket_Spin.pdb"
   "Ticket_Spin.exe"
   "Ticket_Spin.exe.manifest"
+  "Ticket_Spin.pdb"
   "libTicket_Spin.dll.a"
 )
 

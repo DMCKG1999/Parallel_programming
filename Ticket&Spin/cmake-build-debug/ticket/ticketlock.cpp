@@ -5,10 +5,11 @@
 #include <cstdio>
 #include "ticketlock.h"
 
-#define BACKOFF_BASE 5
-
 void ticketlock::lock() {
     const auto ticket = nexttic.fetch_add(1, std::memory_order_relaxed);
+
+    int backoff_t = BACKOFF_BASE;
+
     while (true)
     {
         const auto servtic_c = servtic.load(std::memory_order_acquire);
@@ -16,10 +17,11 @@ void ticketlock::lock() {
             break;
 
         const size_t numBeforeMe = ticket-servtic_c;
-        const size_t waitIters = BACKOFF_BASE*numBeforeMe;
 
-        for (size_t i=0; i<waitIters; i++)
+        for (size_t i=0; i<backoff_t; i++)
             cpu_relax();
+
+        backoff_t *= BACKOFF_BASE;
     }
 }
 

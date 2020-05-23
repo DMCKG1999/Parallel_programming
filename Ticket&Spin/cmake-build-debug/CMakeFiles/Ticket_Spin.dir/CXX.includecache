@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/asm.h
+
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/spin/spinlock.h
+atomic
+-
+../asm.h
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/asm.h
+
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/ticket/ticketlock.h
+atomic
+-
+../asm.h
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/asm.h
+
+D:/Parallel_programming/Ticket&Spin/main.cpp
+iostream
+-
+cmake-build-debug/spin/spinlock.h
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/spin/spinlock.h
+cmake-build-debug/ticket/ticketlock.h
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/ticket/ticketlock.h
+chrono
+-
+ratio
+-
+vector
+-
+pthread.h
+-
+assert.h
+-
+

@@ -1,3 +1,3 @@
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Ticket_Spin.dir/objects.a
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Ticket_Spin.dir/objects.a
 C:\MinGW\bin\ar.exe cr CMakeFiles\Ticket_Spin.dir/objects.a @CMakeFiles\Ticket_Spin.dir\objects1.rsp
 C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Ticket_Spin.dir/objects.a -Wl,--no-whole-archive  -o Ticket_Spin.exe -Wl,--out-implib,libTicket_Spin.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Ticket_Spin.dir\linklibs.rsp

@@ -12,6 +12,8 @@ class ticketlock {
     std::atomic_size_t servtic = {0};
     std::atomic_size_t nexttic = {0};
 
+    const int BACKOFF_BASE = 2;
+
 public:
     void lock();
     void unlock();
