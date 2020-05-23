@@ -22,7 +22,7 @@ std::chrono::duration<double, std::milli> TestLock(T *lock, int NUM_THREADS, std
     std::vector<std::thread> threads;
 
     for (auto i = 0; i < NUM_THREADS; i++) {
-        threads.push_back(std::thread(func, lock));
+	threads.push_back(std::thread(func, lock));
     }    
  
     for (std::thread & th : threads) {
