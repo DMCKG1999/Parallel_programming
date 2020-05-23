@@ -1,3 +1,0 @@
-D:/Parallel_programming/PP_project/cmake-build-debug/CMakeFiles/PP_project.dir
-D:/Parallel_programming/PP_project/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Parallel_programming/PP_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

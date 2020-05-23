@@ -1,6 +1,0 @@
-﻿  PP_project.cpp
-D:\Parallel_programming\PP_project\TTAS_spinlock.cpp(21,35): error C3861: assert: идентификатор не найден
-D:\Parallel_programming\PP_project\TTAS_spinlock.cpp(25,12): error C2039: "wait": не является членом "std::atomic_flag".
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(1933): message : см. объявление "std::atomic_flag"
-D:\Parallel_programming\PP_project\TTAS_spinlock.cpp(31,17): error C2039: "notify_one": не является членом "std::atomic_flag".
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(1933): message : см. объявление "std::atomic_flag"

@@ -1,0 +1,3 @@
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/CMakeFiles/Ticket_Spin.dir
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Parallel_programming/Ticket&Spin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
