@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Parallel_programming/PP_project/PP_project.cpp" "D:/Parallel_programming/PP_project/cmake-build-debug/CMakeFiles/PP_project.dir/PP_project.cpp.obj"
   "D:/Parallel_programming/PP_project/TTAS_spinlock.cpp" "D:/Parallel_programming/PP_project/cmake-build-debug/CMakeFiles/PP_project.dir/TTAS_spinlock.cpp.obj"
+  "D:/Parallel_programming/PP_project/spinlock.cpp" "D:/Parallel_programming/PP_project/cmake-build-debug/CMakeFiles/PP_project.dir/spinlock.cpp.obj"
+  "D:/Parallel_programming/PP_project/ticketlock.cpp" "D:/Parallel_programming/PP_project/cmake-build-debug/CMakeFiles/PP_project.dir/ticketlock.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

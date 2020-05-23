@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PP_project.dir/PP_project.cpp.obj"
   "CMakeFiles/PP_project.dir/TTAS_spinlock.cpp.obj"
+  "CMakeFiles/PP_project.dir/ticketlock.cpp.obj"
+  "CMakeFiles/PP_project.dir/spinlock.cpp.obj"
   "PP_project.pdb"
   "PP_project.exe"
   "PP_project.exe.manifest"

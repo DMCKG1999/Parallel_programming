@@ -2,7 +2,8 @@
 //
 
 #include <iostream>
-#include "TTAS_spinlock.cpp"
+#include <spinlock.h>
+#include <ticketlock.h>
 
 int main()
 {

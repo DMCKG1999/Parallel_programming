@@ -176,6 +176,60 @@ TTAS_spinlock.cpp.s:
 	$(MAKE) -f CMakeFiles\PP_project.dir\build.make CMakeFiles/PP_project.dir/TTAS_spinlock.cpp.s
 .PHONY : TTAS_spinlock.cpp.s
 
+spinlock.obj: spinlock.cpp.obj
+
+.PHONY : spinlock.obj
+
+# target to build an object file
+spinlock.cpp.obj:
+	$(MAKE) -f CMakeFiles\PP_project.dir\build.make CMakeFiles/PP_project.dir/spinlock.cpp.obj
+.PHONY : spinlock.cpp.obj
+
+spinlock.i: spinlock.cpp.i
+
+.PHONY : spinlock.i
+
+# target to preprocess a source file
+spinlock.cpp.i:
+	$(MAKE) -f CMakeFiles\PP_project.dir\build.make CMakeFiles/PP_project.dir/spinlock.cpp.i
+.PHONY : spinlock.cpp.i
+
+spinlock.s: spinlock.cpp.s
+
+.PHONY : spinlock.s
+
+# target to generate assembly for a file
+spinlock.cpp.s:
+	$(MAKE) -f CMakeFiles\PP_project.dir\build.make CMakeFiles/PP_project.dir/spinlock.cpp.s
+.PHONY : spinlock.cpp.s
+
+ticketlock.obj: ticketlock.cpp.obj
+
+.PHONY : ticketlock.obj
+
+# target to build an object file
+ticketlock.cpp.obj:
+	$(MAKE) -f CMakeFiles\PP_project.dir\build.make CMakeFiles/PP_project.dir/ticketlock.cpp.obj
+.PHONY : ticketlock.cpp.obj
+
+ticketlock.i: ticketlock.cpp.i
+
+.PHONY : ticketlock.i
+
+# target to preprocess a source file
+ticketlock.cpp.i:
+	$(MAKE) -f CMakeFiles\PP_project.dir\build.make CMakeFiles/PP_project.dir/ticketlock.cpp.i
+.PHONY : ticketlock.cpp.i
+
+ticketlock.s: ticketlock.cpp.s
+
+.PHONY : ticketlock.s
+
+# target to generate assembly for a file
+ticketlock.cpp.s:
+	$(MAKE) -f CMakeFiles\PP_project.dir\build.make CMakeFiles/PP_project.dir/ticketlock.cpp.s
+.PHONY : ticketlock.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +245,12 @@ help:
 	@echo ... TTAS_spinlock.obj
 	@echo ... TTAS_spinlock.i
 	@echo ... TTAS_spinlock.s
+	@echo ... spinlock.obj
+	@echo ... spinlock.i
+	@echo ... spinlock.s
+	@echo ... ticketlock.obj
+	@echo ... ticketlock.i
+	@echo ... ticketlock.s
 .PHONY : help
 
 

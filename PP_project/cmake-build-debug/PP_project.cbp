@@ -90,6 +90,18 @@
 		<Unit filename="D:/Parallel_programming/PP_project/TTAS_spinlock.cpp">
 			<Option target="PP_project"/>
 		</Unit>
+		<Unit filename="D:/Parallel_programming/PP_project/spinlock.cpp">
+			<Option target="PP_project"/>
+		</Unit>
+		<Unit filename="D:/Parallel_programming/PP_project/spinlock.h">
+			<Option target="PP_project"/>
+		</Unit>
+		<Unit filename="D:/Parallel_programming/PP_project/ticketlock.cpp">
+			<Option target="PP_project"/>
+		</Unit>
+		<Unit filename="D:/Parallel_programming/PP_project/ticketlock.h">
+			<Option target="PP_project"/>
+		</Unit>
 		<Unit filename="D:/Parallel_programming/PP_project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

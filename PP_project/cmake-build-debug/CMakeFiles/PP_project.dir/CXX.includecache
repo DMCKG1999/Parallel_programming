@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/Parallel_programming/PP_project/PP_project.cpp
-iostream
--
-TTAS_spinlock.cpp
-D:/Parallel_programming/PP_project/TTAS_spinlock.cpp
+D:/Parallel_programming/PP_project/ticketlock.cpp
+ticketlock.h
+D:/Parallel_programming/PP_project/ticketlock.h
 
-D:/Parallel_programming/PP_project/TTAS_spinlock.cpp
+D:/Parallel_programming/PP_project/ticketlock.h
 atomic
--
-assert.h
 -
 
