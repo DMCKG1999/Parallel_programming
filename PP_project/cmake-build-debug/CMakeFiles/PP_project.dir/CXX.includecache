@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Parallel_programming/PP_project/PP_project.cpp
+iostream
+-
+TTAS_spinlock.cpp
+D:/Parallel_programming/PP_project/TTAS_spinlock.cpp
+
+D:/Parallel_programming/PP_project/TTAS_spinlock.cpp
+atomic
+-
+assert.h
+-
+

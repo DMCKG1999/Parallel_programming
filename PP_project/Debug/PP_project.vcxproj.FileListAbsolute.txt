@@ -1,0 +1,2 @@
+D:\Parallel_programming\PP_project\Debug\PP_project.exe
+D:\Parallel_programming\PP_project\Debug\PP_project.pdb
