@@ -3,8 +3,7 @@
 //
 
 #include <assert.h>
-#include "spinlock.h"
-
+#include <spinlock.h>
 
 spinlock::spinlock() {
     std::atomic_flag spin = ATOMIC_FLAG_INIT;

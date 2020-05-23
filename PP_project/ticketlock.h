@@ -7,6 +7,7 @@
 
 
 #include <atomic>
+#include <asm.h>
 
 class ticketlock {
     std::atomic_size_t servtic = {0};

@@ -90,6 +90,9 @@
 		<Unit filename="D:/Parallel_programming/PP_project/TTAS_spinlock.cpp">
 			<Option target="PP_project"/>
 		</Unit>
+		<Unit filename="D:/Parallel_programming/PP_project/asm.h">
+			<Option target="PP_project"/>
+		</Unit>
 		<Unit filename="D:/Parallel_programming/PP_project/spinlock.cpp">
 			<Option target="PP_project"/>
 		</Unit>

@@ -7,8 +7,7 @@
 
 
 #include <atomic>
-
-# define cpu_relax() asm volatile ("pause" ::: "memory");
+#include <asm.h>
 
 class spinlock {
 
