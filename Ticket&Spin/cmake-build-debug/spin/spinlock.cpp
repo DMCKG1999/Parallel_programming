@@ -5,16 +5,12 @@
 #include <assert.h>
 #include "spinlock.h"
 
-spinlock::spinlock() {
-    std::atomic_flag spin = ATOMIC_FLAG_INIT;
-}
+spinlock::spinlock() : spin (0){ }
 
 spinlock::~spinlock() {}
 
 void spinlock::lock() {
-    do {
-        cpu_relax();
-    } while (spin.test_and_set(std::memory_order_acquire)) ;
+    while (spin.test_and_set(std::memory_order_acquire)) ;
 }
 
 void spinlock::unlock() {
