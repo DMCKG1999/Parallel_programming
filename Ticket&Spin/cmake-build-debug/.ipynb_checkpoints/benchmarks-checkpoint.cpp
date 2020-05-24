@@ -6,7 +6,7 @@
 #include <string>
 #include <iostream>
 
-const int MAX_NUMBER_THREAD = 60;
+const int MAX_NUMBER_THREAD = 200;
 
 template <class T> void BenchmarkLock (const std::string name, const char c);
 
@@ -34,15 +34,13 @@ template <class T> void BenchmarkLock (const std::string name, const char c) {
         if (i != MAX_NUMBER_THREAD-1) {
             std::cout << ", ";
         
-            if (i % 7 == 0) {
-                std::cout << std::endl << "         ";
+            if (i % 14 == 0) {
+                std::cout << std::endl << "          ";
             }
         }    
     }
          
-    std::cout << "], ";
-             
-    std::cout << "["; 
+    std::cout << "]," << std::endl << "         ["; 
     
     for (auto i = 1; i < MAX_NUMBER_THREAD; i++) {
         std::cout << difspin[i].count(); 
@@ -50,7 +48,7 @@ template <class T> void BenchmarkLock (const std::string name, const char c) {
             std::cout << ", ";
         
             if (i % 7 == 0) {
-                std::cout << std::endl << "         ";
+                std::cout << std::endl << "          ";
             }
         }    
     }

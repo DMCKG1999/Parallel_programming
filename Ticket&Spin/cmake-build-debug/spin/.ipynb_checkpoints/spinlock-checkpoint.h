@@ -8,13 +8,13 @@
 #include <atomic>
 #include "../asm.h"
 
-class spinlock {
+class spinlock_TTAS {
 
-    std::atomic_flag spin;
+    std::atomic<int> spin;
 
 public:
-    spinlock();
-    ~spinlock();
+    spinlock_TTAS();
+    ~spinlock_TTAS();
 
 
     void lock();
